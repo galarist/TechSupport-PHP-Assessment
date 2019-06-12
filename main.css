@@ -1,0 +1,264 @@
+/* the styles for the HTML elements */
+body {
+    margin-top: 0;
+    background-color: #BFCFFE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .25em ;
+}
+h1, h2 {
+    color: black;
+}
+p {
+    margin: .5em 0 .5em 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.nav li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    color: #3333CC;
+    font-weight: bold;
+
+}
+a:hover {
+    color: #3333CC;
+}
+
+table {
+    border: 1px solid #001963;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed #001963;
+    padding: .2em .5em .2em .5em; 
+    vertical-align: middle;
+    text-align: center;
+}
+#no_border {
+    border: 0px;
+}
+#no_border td {
+    border: 0px;
+}
+
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+
+/* the styles for the div tags that divide the page into sections */
+#page {
+    width: 760px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #001963;
+}
+#header {
+    margin: 0;
+    border-bottom: 2px solid black;
+    padding: .5em 2em;
+}
+#header h1 {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#header p {
+    margin: 0;
+    padding: .25em 0 0 0;
+}
+#header ul {
+    margin: 0;
+    padding: 1em 0 0 0;
+}
+#main {
+    margin: 0;
+    padding: .5em 2em .25em;
+}
+
+#content {
+    padding-bottom: .25em;
+}
+#footer {
+    clear: both;
+    margin-top: 1em;
+    padding-right: 1em;
+    border-top: 2px solid black;
+}
+#footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+
+.right {
+    text-align: right;
+}
+.error {
+    color: red;
+}
+
+
+/********************************************************************
+* Additional styles for aligned forms
+********************************************************************/
+#aligned {
+    margin: .5em 0 2em;
+}
+#aligned label {
+    width: 8em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#aligned input {
+    float: left;
+}
+#aligned input[text] {
+    width: 15em;
+}
+
+/**************************************
+* Extra Styling by Cristovao Galambos *
+*             4104841415              *
+**************************************/
+
+#page {
+    width: 760px;
+    margin: 0 auto;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#header, #footer, #main {
+    margin: 0;
+    border: 1px solid rgb(0, 0, 0) !important;
+    padding: .5em 2em;
+    border-radius: 3px;
+    background-color: #f7f3f3 !important;
+}
+
+#main {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    margin-bottom: 5px !important;
+}
+
+#header {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+
+#header p, h1 {
+    text-align: center !important;
+}
+
+table {
+    margin-bottom: 15px !important;
+    border: none !important;
+    border-collapse: separate;
+    width: 100%;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 1px solid rgb(43, 43, 54) !important;
+    border-radius: 3px;
+    padding: 9px 5px !important;
+}
+
+th:last-child {
+    border: none !important;
+}
+
+#no_border{
+    border: none !important;
+}
+
+.left {
+    text-align: left !important;
+}
+
+li {
+    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+}
+
+a {
+    text-decoration-line: none !important;
+    background-color:rgb(234, 240, 240) !important;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid rgb(71, 187, 255);
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#add_data {
+    margin-left: 2px !important;
+}
+
+.custom_table {
+    border: none !important;
+    text-align: left !important;
+    padding: 5px;
+    margin-bottom: 5px !important;
+}
+
+input[type=submit], input[type=text], input[type=date], select {
+    padding: 10px 8px 10px 8px;
+    cursor:pointer;
+    border-radius: 3px;
+    border:1px solid salmon;
+    font-size: 12pt;
+    text-overflow: ellipsis;    
+}
+
+input[type=submit] {
+    font-weight: bold;
+    font-size: 11pt !important;
+    color: red;
+}
+
+input[type=text], select {
+    border-color: black !important;
+    cursor: auto !important;
+}
+
+input[type=text] {
+    background-color: #bfcffe;
+}
