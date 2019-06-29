@@ -1,4 +1,4 @@
 # TechSupport-PHP-Assessment
 
-Connection type: PDO
+Connection type: PDO </br>
 PHP method: OOP
