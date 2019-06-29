@@ -3,4 +3,4 @@
 * Connection type: PDO </br>
 * PHP method: OOP
 
-...
+---
